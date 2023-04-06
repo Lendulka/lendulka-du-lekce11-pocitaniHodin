@@ -5,12 +5,11 @@ const numbers = [
     -24, -11, 27, 29, -4, -28, -21, -14, 3, -8, 24, 19, -25, -2, -1, 11, 32, -31, 5
 ]
 
-/* 4a, 4b
+// 4a, 4b
 for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i])                   // všechna čísla
     console.log(Math.pow(numbers[i], 2))      // druhá mocnina všech čísel
 }
-*/
 
 //4c pouze záporná čísla
 console.log('záporná čísla')

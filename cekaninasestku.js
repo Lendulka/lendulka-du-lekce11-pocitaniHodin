@@ -1,6 +1,6 @@
 console.log('cekani na sestku')
 
-//3 Čekání na šestku
+//3 ČEKÁNÍ NA ŠESTKU
 /*
 Založte JavaScriptový program a splňte následující úkoly.
 
