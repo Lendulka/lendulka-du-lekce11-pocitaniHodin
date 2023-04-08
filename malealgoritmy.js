@@ -1,14 +1,20 @@
 
-//4 Malé algoritmy
+//4 MALÉ ALGORITMY
 
 const numbers = [
     -24, -11, 27, 29, -4, -28, -21, -14, 3, -8, 24, 19, -25, -2, -1, 11, 32, -31, 5
 ]
 
-// 4a, 4b
+//4a všechna čísla
+console.log('všechna čísla')
 for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i])                   // všechna čísla
-    console.log(Math.pow(numbers[i], 2))      // druhá mocnina všech čísel
+    console.log(numbers[i])
+}
+
+//4b druhá mocnina čísel
+console.log('druhá mocnina čísel')
+for (let i = 0; i < numbers.length; i++) {
+    console.log(Math.pow(numbers[i], 2))
 }
 
 //4c pouze záporná čísla
@@ -37,7 +43,7 @@ for (let i = 0; i < numbers.length; i++) {
 console.log('absolutní hodnota dělitelná 3')
 numbers.forEach((number) => {
     if (Math.abs(number) % 3 === 0) {
-        console.log(number)
+        console.log(Math.abs(number))
     }
 })
 
